@@ -21,7 +21,7 @@
 idea1 - Chinese Painting
 
 ![mdb1]
-(./mdb/mdb1-chinese-painting.png)
+(https://github.com/jian10au/portfolio/blob/master/mdb/mdb1-chinese-painting.png)
 
 
 
