@@ -7,7 +7,7 @@
 
 # Description For Internet
 
-## 1. Keys events in the development of the internet 
+## 1. Key events in the development of the internet 
 
 ## 2. Fundemental aspects of the internet: domain, web servers, DNS and web browsers
 
@@ -19,9 +19,7 @@
 ## 1. Moodboard
 
 idea1 - Chinese Painting
-
-![mdb1]
-(https://github.com/jian10au/portfolio/blob/master/mdb/mdb1-chinese-painting.png)
+![MDB1-IMAGE](https://github.com/jian10au/portfolio/blob/master/mdb/mdb1-chinese-painting.png)
 
 
 
