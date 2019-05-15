@@ -18,8 +18,11 @@
 
 ## 1. Moodboard
 
-idea1 - Chinese Painting
+Idea1 - Chinese Painting
 ![MDB1-IMAGE](https://github.com/jian10au/portfolio/blob/master/mdb/mdb1-chinese-painting.png)
+
+Idea2 - Bauhaus Minimal
+![MDB2-IMAGE](https://github.com/jian10au/portfolio/blob/master/mdb/mdb-2-bauhaus-minimal.png)
 
 
 
