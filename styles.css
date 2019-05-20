@@ -1,3 +1,88 @@
-body {
-  background-color: brown;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quantico', sans-serif;
 }
+
+.top-header {
+
+    height: 100px;
+    background-color: bisque;
+    text-align: center;
+
+  }
+
+.navigation-box {
+  height: 250px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.navigation-box > div {
+
+  width: 150px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.about-box {
+  background-color: aqua;
+  color: white;
+}
+
+
+.interests-box {
+  text-align: right;
+    background-color: bisque;
+    color: aquamarine;
+}
+
+.timeline-box {
+background-color:aqua;
+color: white
+}
+
+
+.skills-box {
+  text-align: right;
+    background-color:bisque;
+    color: aquamarine;
+}
+
+.works-grid-container {
+
+  background-color: aquamarine;
+  display:flex;
+  justify-content:flex-start;
+
+}
+
+.works-box > div { 
+display:flex;
+justify-content: center;
+
+width: 50px;
+}
+
+.works-grid-container > div {
+
+  border: 50px;
+  border-color: black;
+
+}
+
+.contact-box{
+  text-align: center;
+  background-color: aqua;
+
+}
+
+
+.sec-box {
+  height: Auto;
+  font-size: 30px;
+}
+
