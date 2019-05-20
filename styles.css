@@ -1,20 +1,37 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Quantico', sans-serif;
+    font-family:'Quantico','Rajdhani';
+    scroll-behavior: smooth;
 }
 
 .top-header {
 
-    height: 100px;
+    height: auto;
     background-color: bisque;
     text-align: center;
 
   }
 
+.bg-placeholder1 {
+
+    display:inline-block;
+    height: 300px;
+    background-color: brown;
+}  
+
+.bg-placeholder2 {
+
+    display:inline-block;
+    height: 300px;
+    background-color: brown;
+}
+
+
+
 .navigation-box {
   height: 250px;
-    background-color: aquamarine;
+    background-color: bisque;
     display: flex;
     justify-content: flex-end;
 
@@ -24,8 +41,13 @@
 .navigation-box > div {
 
   width: 150px;
-  background-color: aquamarine;
+  background-color: bisque;
   text-align: center;
+}
+
+.navigation-box > div a:hover {
+  color:yellow;
+  background-color: white;
 }
 
 .about-box {
@@ -84,5 +106,18 @@ width: 50px;
 .sec-box {
   height: Auto;
   font-size: 30px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  background-color:
+}
+
+
+.social-media > div {
+
+  width: 100px;
+
 }
 
