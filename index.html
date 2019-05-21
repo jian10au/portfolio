@@ -76,7 +76,7 @@
       <h1 id="Works">Works</h1>
       
       <div class="works-grid-container">      
-      <div>Terminal App</div>
+        <div>1</div>
         <div>2</div>
         <div>3</div>
         <div>4</div>
@@ -84,7 +84,7 @@
         <div>6</div>
         <div>7</div>
         <div>8</div>
-        <div>Terminal App</div>
+        <div>9</div>
       </div>
       
     
@@ -98,10 +98,30 @@
       <h2 id ="Social">Social</h2>
       <div class="github"><a href="https://github.com/jian10au?tab=repositories">GITHUB</a></div>
       <div class="linkedin"><a href="https://www.linkedin.com/in/brian-jian-zhao-44781458/">LINKEDIN</a></div>
-      <div class="cv">C.V.</div>
+      <div class="cv"><a href="./doc/Brian Jian Zhao - Coder_Academy - 110319.pdf"> C.V.</a></div>
     </div>
 
 
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>   
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Your Role: <select name="role[]" multiple>
+          <option value="leader">Leader</option>
+          <option value="follower">Follower</option>
+        </select></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
 
 </body>
 </html>
