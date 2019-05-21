@@ -1,0 +1,40 @@
+
+*{
+padding:0px;
+margin:0px;
+
+background-color: blue;
+
+}
+
+
+#myVideo {
+
+
+
+
+}
+
+.first-class {
+
+background-color: aquamarine
+
+
+}
+
+.second-class {
+
+background-color: blueviolet  
+
+}
+
+
+.child{
+
+background-color: brown;
+position: absolute;
+top:0px;
+left:0px;
+bottom:0px;
+right:50%;
+}

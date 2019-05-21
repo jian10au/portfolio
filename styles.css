@@ -1,4 +1,4 @@
-* {
+html {
     margin: 0px;
     padding: 0px;
     font-family:'Quantico','Rajdhani';
@@ -6,25 +6,20 @@
 }
 
 .top-header {
+  background-color:aqua;
+  position: relative;
+  left:200px;
 
-    height: auto;
-    background-color: bisque;
-    text-align: center;
-
+  height:1000px;
   }
 
-.bg-placeholder1 {
+#hk-img {
+position: absolute;
+right:0;
+width:400px;
+height:400px;
 
-    display:inline-block;
-    height: 300px;
-    background-color: brown;
-}  
 
-.bg-placeholder2 {
-
-    display:inline-block;
-    height: 300px;
-    background-color: brown;
 }
 
 
@@ -74,26 +69,31 @@ color: white
     color: aquamarine;
 }
 
+.works-box {
+font-size: 100px;
+display:flex;
+flex-direction: column;
+
+}
+
+
+/* set the heading 'works' and 'grids' apart above*/
+
 .works-grid-container {
 
-  background-color: aquamarine;
-  display:flex;
-  justify-content:center;
+display: grid;
+grid-template-columns: auto auto auto;
 
 }
 
-.works-box > div { 
-display:flex;
-justify-content: center;
-width: 50px;
-}
 
-.works-grid-container > div {
-
-  border: 50px;
-  border-color: black;
+.works-grid-container > div:hover {
+  color:white;
+  background-color: black;
 
 }
+
+
 
 .contact-box{
   text-align: center;
@@ -103,7 +103,6 @@ width: 50px;
 
 
 .sec-box {
-  height: Auto;
   font-size: 30px;
 }
 
