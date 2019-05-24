@@ -5,13 +5,13 @@ margin:0px;
 background-color: bisque;
 }
 
+.grid-area{
 
-.interests-grid-wrapper {
+grid-auto
 
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 
 }
+
 
 /* what i want to do is either set the png as fixed size. Let the grid to fit for it. */
 
