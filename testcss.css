@@ -1,40 +1,18 @@
 
-*{
+body {
 padding:0px;
 margin:0px;
-
-background-color: blue;
-
+background-color: bisque;
 }
 
 
-#myVideo {
+.interests-grid-wrapper {
 
-
-
-
-}
-
-.first-class {
-
-background-color: aquamarine
-
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 
 }
 
-.second-class {
+/* what i want to do is either set the png as fixed size. Let the grid to fit for it. */
 
-background-color: blueviolet  
-
-}
-
-
-.child{
-
-background-color: brown;
-position: absolute;
-top:0px;
-left:0px;
-bottom:0px;
-right:50%;
-}
+/* or set the grid size as fixed. To let the content to fit for it */
