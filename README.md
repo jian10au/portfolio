@@ -49,7 +49,7 @@ Since this is a single page site, the site map is straight forward.
 
 ## D. Screenshots
 
-To be provided
+![alt text](./readme-pic/desktop-screen-shot.png "Desktop-screen" ){:height="50%" width="50%"}
 
 ## E. Target audience
 
@@ -88,6 +88,15 @@ I also browsed a lot from professional portfolios created by people in the field
 In terms of the visual/graphical design, I favour the contrast feeling created by the moving pieces and their static counterpart,like the style that can be found on https://www.quantifiedplanet.org/.
 
 Finally, green is the font color that represents the figures and data in pop culture and movies. Therefore, I choose green as my main theme color.
+
+## Figma Design
+
+* Desktop
+
+![alt text](./readme-pic/pc.png "Desktop-screen" )
+
+* Mobile 
+![alt text](./readme-pic/iphone-x.png "Desktop-screen" )
 
 ## b. Usability Consideration
 
@@ -150,7 +159,7 @@ For actual development and code writing, I basically followed the project plan.
 
 ## Using Trello Board.
 
-Screenshots to be provided
+![alt text](./readme-pic/t-board.png "Desktop-screen" )
 
 Each morning, I look at my project plan and brainstorm tasks related to today's overall objective. The tasks is then entered into "to-do-list" card in Trello. When a task is finished, I moved the task to the "done" card. Form time to time, when I had some thoughts or good reference material, I add comments to the card.
 
