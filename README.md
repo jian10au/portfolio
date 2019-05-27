@@ -106,7 +106,7 @@ Finally, green is the font color that represents the figures and data in pop cul
 
 * Font & Colour
 
-![alt text](./docs/font.png "mobile-design" )
+![alt text](./docs/font-final.png "mobile-design" )
 
 ![alt text](./docs/colour.png "mobile-design" )
 
