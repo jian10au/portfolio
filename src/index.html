@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blinking Cursor - Brian Jian Zhao</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="top-header">
+    
+    
+    
+    <div class="top-cover-layer"></div>
+    <video autoplay muted loop id="top-bg-video" src="./bg-video/bg-green.mov"></video>
+    <div class="ani-text1">My Name is Brian. Welcome to my Site.</div>
+    <div class="ani-text2">Data Analysis, Techonology and More Fun.</div>
+  
+  </div>
+  
+  <div class="navigation-box">
+    <div class="about" ><a href="#about-link">About</a></div>
+    <div class="interests"><a href="#interests-header">Interests</a></div>
+    <div class="timeline"><a href="#timeline-link">Timeline</a></div>
+    <div class="skills"><a href="#skills-header">Skills</a></div>
+    <div class="works"><a href="#works-link">Works</a></div>
+    <div class="contact"><a href="#contact-link">Contact</a></div>
+    <div class="socia"><a href="#social-link">Social</a></div>
+  </div>
+
+
+  <!-- about box starts -->
+
+  <div class="about-box sec-box" id="about-link">
+    
+    
+      <div class="about-box-content-wrapper">
+          <p> I am an aspiring full-stack web developer based in Melbourne, Australia. Before I decide to pursue my childhood dream - to become     an IT techie, I spent years in corporate world as an accountant and trainee manager. 
+            
+            I endeavor to combine my knowledge of web development, algorithm, and internet with my experience in corporate reporting, financial modelling and data virtualisation to create something fun and useful.Check out down below for things I've created or what I'm learning and reading.
+          </p>
+      </div>
+        
+      <div class="about-box-header-wrapper">
+          <h1 id="About">About <span class="blinking-cursor">|</span></h1>
+      </div>
+
+  </div>
+      
+  <!-- about box ends -->
+  
+  
+  <!-- interest box starts -->
+  
+      <div class="interests-box sec-box">
+        <h1 id="interests-header">Interests <span class="blinking-cursor">|</span></h1>
+      
+        <div class="interest-content-container">
+          <div class="interests-flex-container-1">
+            <div>Equity Investment</div>
+            <div>Data Visualisation</div>
+            <div>Photograhpy</div>
+          </div>
+
+            <div class="interests-flex-container-2">
+            <div>Hiking and Camping</div>
+            <div>History</div>
+            <div>Gym Exercise</div>
+          </div>      
+      </div> 
+      
+    </div>
+      
+
+
+      <div class="timeline-box sec-box" id="timeline-link">
+
+        <div class="timeline-grid">
+          <div class="timeline-header" id="timeline-header">Timeline <span class="blinking-cursor">|</span></div>
+          <div class="stage1-year">2012</div>
+          <div class="stage2-year">2014</div>
+          <div class="stage3-year">2018</div>
+          <div class="stage4-year">2019</div>
+          <div class="stage1-logo"><img width="65%", src="./icon-img/logo-uom.svg"></div>
+          <div class="stage2-logo"><img width="65%", src="./icon-img/logo-jmg.svg"></div>
+          <div class="stage3-logo"><img width="65%", src="./icon-img/logo-lwd.svg"></div>
+          <div class="stage4-logo"><img width="65%", src="./icon-img/logo-ca.svg"></div>
+          <div class="timeline-white-area1"></div>
+          <div class="timeline-white-area2"></div>
+          <div class="timeline-green-area1"></div>
+          <div class="timeline-green-area2"></div>
+        </div>
+
+
+      </div>
+
+    <div class="skills-box sec-box">  
+      <h1 id ="skills-header">Skills <span class="blinking-cursor">|</span></h1>
+      <div class="skills-flex-container">
+        <div class="coding-sec-container">
+          <h2>Coding</h2>
+          <div># Ruby on Rail</div>
+          <div>level:</div>
+          <img width=50% height=2% src="./icon-img/lv-capsule.svg">
+          <div>/*HTML & CSS*/</div>
+          <div>level:</div>
+          <img width=50% height=2% src="./icon-img/lv-capsule.svg">
+        </div>
+        
+        <div class="business-sec-container">  
+          <h2>Business</h2>
+          <div>Financial Reporting</div>
+          <div>level:</div>
+          <img width=45% height=1% src="./icon-img/lv-capsule-full.svg">
+          <div>Business Modelling</div>
+          <div>level:</div>
+          <img width=45% height=1% src="./icon-img/lv-capsule-full.svg">
+        </div>
+      </div>  
+    
+    </div>
+    
+    <div class="works-box sec-box" id="works-link">
+      
+      <h1 id="Works">Works <span class="blinking-cursor">|</span></h1>
+      
+      <div class="works-grid-container">      
+        <div class="folio-screen-cap">Article Checker</div>
+        <div class="folio-screen-cap">Project 2</div>
+        <div class="folio-screen-cap">Project 3</div>
+        <div class="folio-screen-cap">Project 4</div>
+        <div class="folio-screen-cap">Project 5</div>
+        <div class="folio-screen-cap">Project 6</div>
+        <div class="folio-screen-cap">Project 7</div>
+        <div class="folio-screen-cap">Project 8</div>
+        <div class="folio-screen-cap">Project 9</div>
+      </div>
+
+    </div>
+    
+
+    <div class="contact-box sec-box" id="contact-link">
+      <h1 id ="contact-header">Contact <span class="blinking-cursor">|</span></h1>
+
+      <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button id="contact-button" type="submit">Send!</button>
+          </p>
+        </form>
+
+    </div>
+
+    <div class="social-media-box" id ="social-link">
+        <div class="github"><a href="https://github.com/jian10au">GITHUB</a></div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/brian-jian-zhao-44781458/">LINKEDIN</a></div>
+        <div class="cv"><a href="doc/Brian Jian Zhao - Coder_Academy - 110319.pdf">C.V.</a></div>
+    </div>
+    
+  </div>
+
+
+</body>
+</html>

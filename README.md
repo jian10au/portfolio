@@ -49,7 +49,7 @@ Since this is a single page site, the site map is straight forward.
 
 ## D. Screenshots
 
-![alt text](./readme-pic/desktop-screen-shot.png "Desktop-screen" ){:height="50%" width="50%"}
+![alt text](./docs/desktop-screen-shot.png "Desktop-screen" )
 
 ## E. Target audience
 
@@ -89,14 +89,27 @@ In terms of the visual/graphical design, I favour the contrast feeling created b
 
 Finally, green is the font color that represents the figures and data in pop culture and movies. Therefore, I choose green as my main theme color.
 
+## Moodboard
+
+![alt text](./docs/mdb.png "Desktop-design" )
+
+
 ## Figma Design
 
 * Desktop
 
-![alt text](./readme-pic/pc.png "Desktop-screen" )
+![alt text](./docs/pc.png "Desktop-design" )
 
 * Mobile 
-![alt text](./readme-pic/iphone-x.png "Desktop-screen" )
+
+![alt text](./docs/iphone-x.png "mobile-design" )
+
+* Font & Colour
+
+![alt text](./docs/font.png "mobile-design" )
+
+![alt text](./docs/colour.png "mobile-design" )
+
 
 ## b. Usability Consideration
 
@@ -159,7 +172,7 @@ For actual development and code writing, I basically followed the project plan.
 
 ## Using Trello Board.
 
-![alt text](./readme-pic/t-board.png "Desktop-screen" )
+![alt text](./docs/t-board.png "trello-screen" )
 
 Each morning, I look at my project plan and brainstorm tasks related to today's overall objective. The tasks is then entered into "to-do-list" card in Trello. When a task is finished, I moved the task to the "done" card. Form time to time, when I had some thoughts or good reference material, I add comments to the card.
 
